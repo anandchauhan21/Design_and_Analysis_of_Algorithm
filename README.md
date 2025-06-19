@@ -1,58 +1,116 @@
-📘 Design and Analysis of Algorithm Laboratory (DAA Lab) – Semester 5
+# 📘 Design and Analysis of Algorithms – Lesson Plan
 
-Welcome to the Design and Analysis of Algorithm Laboratory (303105219) 🌟
-This repository contains easy-to-follow Google Colab notebooks 🧪 that implement key algorithms using Python 🐍, as prescribed by the official B.Tech Semester 5 syllabus.
+This repository contains a comprehensive **30-lesson plan** for the subject **Design and Analysis of Algorithms**, covering both **theory (303105218)** and **practical/lab (303105219)** components, organized into structured modules based on the official syllabus.
 
-    🚀 Learn to write efficient code, analyze performance, and master real-world problems using structured algorithmic thinking.
+Each lesson is **1 hour** in duration and is designed to build both conceptual understanding and coding ability.
 
-🧾 Based On:
+---
 
-    📄 Subject Code: 303105219 – Design and Analysis of Algorithm Laboratory
+## 🗂️ Module-wise Lesson Plan
 
-    📘 Prerequisite: Programming fundamentals and data structures
+### 🔹 Module 1: Introduction and Analysis of Algorithms (6 Lessons)
+| Lesson | Topic | Description |
+|--------|-------|-------------|
+| 1 | Introduction to Algorithms | Definitions, properties, types |
+| 2 | Algorithm Analysis | Parameters, complexity types |
+| 3 | Asymptotic Notation | Big O, Omega, Theta |
+| 4 | Algorithm Correctness | Loop invariants, control flow |
+| 5 | Recurrences | Substitution, tree, master method |
+| 6 | Sorting Algorithms | Bubble, Insertion, Selection sort |
 
-    🎯 Focus: Efficiency, correctness, algorithm design strategies, and problem-solving
+---
 
-🔍 Contents (12 Labs Aligned with the Syllabus)
-🔢 Lab	📂 Topic	📄 Description
-01	Prime Check	Basic loop-based primality test
-02	Insert Position	Binary search in sorted array
-03	Candy Distribution	Greedy problem – minimum candies
-04	Aggressive Cows	Binary search on answers
-05	Cycle in Graph	DFS/BFS to detect cycles
-06	Critical Connections	Tarjan's Algorithm
-07	Number of Islands	DFS on 2D grid
-08	Rotten Oranges	BFS on grid with multiple sources
-09	Edit Distance	Classic DP: string transformation
-10	Minimum Path Sum	Grid traversal with dynamic programming
-11	Remove K Digits	Greedy + stack strategy
-12	Robot Unique Paths	Combinatorics + DP approach
-💡 Learning Goals
+### 🔹 Module 2: Divide & Conquer Algorithms (3 Lessons)
+| Lesson | Topic | Description |
+|--------|-------|-------------|
+| 7 | Binary Search, Merge Sort | D&C principles |
+| 8 | Quick Sort, Max-Min | Recursive design |
+| 9 | Strassen’s Matrix Multiplication | Optimized matrix multiplication |
 
-    🧠 Understand and apply algorithm design paradigms (Greedy, DP, Divide & Conquer)
+---
 
-    🧮 Practice complexity analysis (Time & Space)
+### 🔹 Module 3: Greedy Algorithms (5 Lessons)
+| Lesson | Topic | Description |
+|--------|-------|-------------|
+| 10 | Greedy Strategy | Greedy choice property |
+| 11 | MST Algorithms | Kruskal's, Prim’s |
+| 12 | Dijkstra’s Algorithm | Shortest path |
+| 13 | Activity Selection, Huffman Codes | Scheduling, encoding |
+| 14 | Candies Distribution | Greedy allocation problem |
 
-    🌐 Solve graph, grid, string, and numeric problems
+---
 
-    🔎 Gain intuition for choosing efficient strategies
+### 🔹 Module 4: Dynamic Programming (5 Lessons)
+| Lesson | Topic | Description |
+|--------|-------|-------------|
+| 15 | Introduction to DP | Optimality principle |
+| 16 | 0/1 Knapsack, Making Change | Basic DP |
+| 17 | Matrix Chain Multiplication | Parenthesization |
+| 18 | Longest Common Subsequence | LCS with memoization |
+| 19 | Edit Distance, Min Path Sum | DP on strings and grids |
 
-🚀 How to Use
+---
 
-    Open any .ipynb notebook in this repo.
+### 🔹 Module 5: Exploring Graphs (3 Lessons)
+| Lesson | Topic | Description |
+|--------|-------|-------------|
+| 20 | Intro to Graphs | Directed, undirected |
+| 21 | DFS, BFS Traversal | Search algorithms |
+| 22 | Topological Sort & Cycle Detection | DAGs & cycle check |
 
-    Click on “Open in Colab” badge/button.
+---
 
-    Run cells interactively and modify examples as you learn!
+### 🔹 Module 6: Backtracking & Branch & Bound (3 Lessons)
+| Lesson | Topic | Description |
+|--------|-------|-------------|
+| 23 | Backtracking Basics | Recursive state exploration |
+| 24 | Branch & Bound | TSP, Knapsack |
+| 25 | Island Counting | DFS/BFS grid traversal |
 
-🛠️ Requirements
+---
 
-    📍 Just a Google account
+### 🔹 Module 7: String Matching & NP-Completeness (5 Lessons)
+| Lesson | Topic | Description |
+|--------|-------|-------------|
+| 26 | Naive, Rabin-Karp Matching | Basic pattern matching |
+| 27 | KMP Algorithm | Efficient matching |
+| 28 | Finite Automata | FSM-based matching |
+| 29 | NP-Completeness | P vs NP, Hamiltonian Cycle |
+| 30 | Rotten Oranges, Unique Paths | BFS + DP applications |
 
-    ✅ Google Colab (no setup required)
+---
 
-    🔢 Python 3 (preinstalled on Colab)
+## 🧪 Lab Problem Highlights
 
-🙌 Contributions Welcome!
+From syllabus 303105219:
+- Prime number check
+- Binary search insert position
+- Minimum candies distribution
+- Aggressive cows (max min distance)
+- Cycle detection in undirected graph
+- Critical connections in a network
+- Island counting in grid
+- Rotten oranges BFS timer
+- Edit distance (string DP)
+- Minimum path sum (grid DP)
+- Remove K digits (greedy/string)
+- Unique paths in a grid (DP)
 
-Want to add visualizations, comments, or alternate solutions? Feel free to fork the repo and create pull requests.
+---
+
+## 📚 References
+
+- *Introduction to Algorithms* – Cormen et al.
+- *Algorithm Design* – Kleinberg & Tardos
+- *Fundamentals of Algorithms* – Horowitz et al.
+- *Algorithm Design Manual* – Skiena
+
+---
+
+## ✅ Course Outcomes
+
+Upon completion, students will:
+- Analyze and prove the efficiency of algorithms
+- Apply algorithmic techniques like Greedy, DP, D&C
+- Implement and analyze graph and string matching algorithms
+- Understand NP-completeness and complexity classes
